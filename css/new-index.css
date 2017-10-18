@@ -50,12 +50,20 @@
     }
 }
 
-.new-content h1, h2, h3 {
+.new-content h1 {
     color: #fff;
     text-align: center;
-    font-size: 60px;
-    margin: 50px auto;
+    font-size: 80px;
+    margin: 120px auto;
 }
+
+.new-content h3 {
+    margin: 60px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
 
 .title-card p {
     color: rgba(31,37,50,.6);
