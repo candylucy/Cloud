@@ -1,0 +1,83 @@
+div {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+.first-banner {
+    height: 100vh;
+    width: 100%;
+    background: url("../product/images/B-index1.jpg") no-repeat no-repeat center;
+}
+
+.first-banner-content {
+    text-align: center;
+    margin: 8% auto;
+}
+
+.banner-content-title {
+    display: block;
+    margin: 20px;
+}
+
+.banner-content-title h1 {
+    color: white;
+}
+
+.two-product {
+    overflow: auto;
+    width: 100%;
+    background: #f7f7f7;
+}
+
+.two-product-content {
+    margin: 5%;
+}
+
+.two-event {
+    width: 100%;
+    height: 50vh;
+    margin: 5% 0;
+}
+
+.two-event-pic ,.two-event-title {
+    display: inline-block;
+}
+
+.two-event-pic {
+    width: 60%;
+    height: 100%;
+}
+
+.two-event-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.two-event-title {
+    position: absolute;
+    width: 40%;
+    height: 40vh;
+    z-index: 10;
+    background: white;
+    margin-top: 5vh;
+    text-align: left;
+    padding: 2%;
+}
+
+.two-event-title p {
+    max-width: 550px;
+    margin: 0 auto 80px;
+}
+
+
+
+.two-event:nth-child(2n+1) .two-event-title {
+    margin-top: 5vh;
+    margin-left: -5%;
+    float: right;
+}
+
+.two-event:nth-child(2n) .two-event-pic {
+    float: right;
+}
